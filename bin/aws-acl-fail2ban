@@ -1,0 +1,10 @@
+#!/usr/bin/php
+
+<?php
+
+require_once __DIR__ . '/../src/AWS_ACL_Fail2Ban/AWS_ACL_Fail2Ban.php';
+
+use AnthonyMartin\AWS_ACL_Fail2Ban\AWS_ACL_Fail2Ban;
+
+new AWS_ACL_Fail2Ban();
+

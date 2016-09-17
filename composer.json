@@ -1,0 +1,25 @@
+{
+    "name": "anthonymartin/AWS_ACL_Fail2ban",
+    "description": "This package includes a script and fail2ban configuration that allows you to use fail2ban when utilizing AWS elastic load balancer (ELB) and an apache webserver.",
+    "keywords": ["aws", "acl", "fail2ban", "apache", "apache2", "amazon web services", "elb", "elastic load balancer", "dos", "dos protection"],
+    "homepage": "https://github.com/anthonymartin/aws-acl-fail2ban",
+    "license": "CC 3.0",
+    "authors": [
+        {
+            "name": "Anthony Martin",
+            "email": "anthony@replaycreative.com",
+            "homepage": "http://replaycreative.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "bin-dir": "./",
+    "bin" : ["bin/aws-acl-fail2ban"],
+    "autoload": {
+        "psr-4": {
+            "AnthonyMartin\\": "src/"
+        }
+    }
+}
