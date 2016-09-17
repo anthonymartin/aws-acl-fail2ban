@@ -12,7 +12,7 @@ Dependencies
 
 Installation
 -----
-1. The recommended method of installation is by using composer to install: `composer require anthonymartin/aws-acl-fail2ban` - alternatively, you can clone or download this repository.
+1. The recommended method of installation is by using composer to install: `composer require anthonymartin/aws_acl_fail2ban` - alternatively, you can clone or download this repository.
 2. Ensure that your apache configuration and your fail2ban configuration is correct. Some help has been provided below.
 
 Apache Configuration
