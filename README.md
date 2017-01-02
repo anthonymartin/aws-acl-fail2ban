@@ -44,7 +44,7 @@ fail2ban Configuration
   [aws-acl-example]
   enabled = true
   filter = aws-acl-example-filter
-  action = aws-acl-action
+  action = aws-acl
     sendmail-whois[name=LoginDetect, dest=youremail@example.com, sender=youremail@local.hostname, sendername="Fail2Ban"]
   logpath = /var/log/apache2/access.log
   maxretry = 60
