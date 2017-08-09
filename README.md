@@ -1,5 +1,11 @@
 Follow the author: @pressplayplease
 
+Is this code useful? Has it saved you time? Please consider donating:
+
+Bitcoin - 1PPLC86abWCb3Ahez14vcJPUan6Zes9D5t   
+Ether - 0x92f59580479eaf61d4d81ee8441ff23fb1ec57dc  
+Litecoin - LPdsE3eHKnoxGa8yUkLoCwr7NXdh4WorRW
+
 # aws-acl-fail2ban
 This package includes a script and fail2ban configuration that allows you to use fail2ban when utilizing AWS elastic load balancer (ELB) and an apache webserver. It is useful to protect your site against DoS and brute force attacks when behind a reverse proxy load balancer like ELB. Special consideration is required when using ELB with fail2ban because ELB only forwards the client IP to the server in an X-Forwarded-For header. Following this guide will enable you to use ELB, Apache webservers and AWS ACL together with fail2ban for an dynamic firewall solution.
 
