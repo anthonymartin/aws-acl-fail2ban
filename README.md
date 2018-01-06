@@ -33,7 +33,7 @@ Apache Configuration
     LogFormat "%h %l %u %t \"%r\" %>s %O" common
     LogFormat "%{Referer}i -> %U" referer
     LogFormat "%{User-agent}i" agent
-    ```
+  ```
 
 3. run `sudo service apache2 reload`
  
