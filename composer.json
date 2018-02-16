@@ -3,7 +3,7 @@
     "description": "This package includes a script and fail2ban configuration that allows you to use fail2ban when utilizing AWS elastic load balancer (ELB) and an apache webserver.",
     "keywords": ["aws", "acl", "fail2ban", "apache", "apache2", "amazon web services", "elb", "elastic load balancer", "dos", "dos protection"],
     "homepage": "https://github.com/anthonymartin/aws-acl-fail2ban",
-    "license": "CC 3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Anthony Martin",
